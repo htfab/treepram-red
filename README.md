@@ -1,6 +1,6 @@
-# TreePRAM
+# TreePRAM-red
 
-![Architecture diagram](docs/source/_static/treepram.svg)
+![Architecture diagram](docs/source/_static/treepram-red.svg)
 
 Parallel random access machines (PRAM) are a model of computation used in theoretical computer science. They consist of
 several independent processors (random access machines) communicating with each other by sharing the same memory.
