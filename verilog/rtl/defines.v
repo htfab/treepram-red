@@ -4,7 +4,7 @@
 `default_nettype none
 
 // number of cpu cores
-`define CORES 8
+`define CORES 2
 
 // number of memory mesh cells per cpu core
 `define MEM_DEPTH 32
