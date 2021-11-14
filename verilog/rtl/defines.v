@@ -4,13 +4,13 @@
 `default_nettype none
 
 // number of cpu cores
-`define CORES 4
+`define CORES 16
 
 // number of memory mesh cells per cpu core
 `define MEM_DEPTH 32
 
 // machine word size
-`define DATA_WIDTH 16
+`define DATA_WIDTH 8
 
 // minimum number of instructions in program memory (some cores will have a multiple of it)
 `define INSTR_DEPTH 16

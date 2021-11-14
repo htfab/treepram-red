@@ -47,12 +47,13 @@ set ::env(CLOCK_PERIOD) "30"
 set ::env(SYNTH_STRATEGY) "DELAY 1"
 
 set ::env(FP_SIZING) relative
-set ::env(FP_CORE_UTIL) 28
+set ::env(FP_CORE_UTIL) 26
+set ::env(FP_ASPECT_RATIO) 1.2
 
 set ::env(FP_PIN_ORDER_CFG) $script_dir/pin_order.cfg
 
 #set ::env(PL_BASIC_PLACEMENT) 1
-set ::env(PL_TARGET_DENSITY) 0.288
+set ::env(PL_TARGET_DENSITY) 0.27
 
 # This requires a patched openroad & openlane, see the "patch" directory at the repo root
 set ::env(DECAP_PERCENT) 75
